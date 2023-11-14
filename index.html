@@ -6,12 +6,20 @@
     <title>Linkando HTML com JS</title>
 </head>
 <body>
-    <input type="button" value="Botao 1" id="bt1" onclick="clq1()">
-    <input type="button" value="Botao 2" id="bt2">
-    <br>
+    <select name="idioma" id="idioma">
+        <option value="es">Espanhol</option>
+        <option value="en">Inglês</option>
+        <option value="pt" selected="selected">Português</option>
+    </select>
+    <h1 id="titulo">Calculadora</h1>
     <input type="text" id="valor1">
-    <p>+</p>
     <input type="text" id="valor2">
+    <p>
+        <input type="button" value="Somar" id="btSoma">
+        <input type="button" value="Subtração" id="btSub">
+        <input type="button" value="Multiplicação" id="btMult">
+        <input type="button" value="Divisão" id="btDiv">
+    </p>
     <p id="resultado"></p>
 </body>
     <script type="text/javascript" src="script.js"></script>
