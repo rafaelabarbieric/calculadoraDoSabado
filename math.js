@@ -43,27 +43,3 @@ function dividir(a, b) {
     resultado.innerHTML = div;
 }
 
-let selectedLanguage = document.querySelector("#idioma");
-selectedLanguage.addEventListener("change", function() {
-    if (this.value == "pt") {
-        ttl.textContent = "Calculadora";
-        soma.value = "Soma";
-        sub.value = "Subtração";
-        mult.value = "Multiplicação";
-        div.value = "Divisão";
-    }
-    else if (this.value == "en") {
-        ttl.textContent = "Calculator";
-        soma.value = "Sum";
-        sub.value = "Subtraction";
-        mult.value = "Multplication";
-        div.value = "Division";
-    }
-    else if (this.value == "es") {
-        ttl.textContent = "Calculadora";
-        soma.value = "Suma"
-        sub.value = "Sustracción";
-        mult.value = "Multiplicación";
-        div.value = "División";
-    }
-})
